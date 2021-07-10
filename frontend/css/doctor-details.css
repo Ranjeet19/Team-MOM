@@ -12,6 +12,7 @@ body {
     grid-template-columns: 160px auto;
     grid-template-rows: auto auto;
     gap: 20px;
+    border-radius: 20px;
 }
 
 .header-img {
@@ -46,14 +47,17 @@ body {
     border-radius: 50%;
 }
 
-.consult {
-    margin-left: 2%;
-    justify-content: center;
-    color: black;
-    padding: 10px 50px;
+.soc-media {
+    display: flex;
+    margin-top: 15px;
+}
+
+.soc-media>a {
+    margin-right: 15px;
 }
 
 .about-cate-bar {
+    margin-top: 20px;
     display: flex;
     font-size: 1.2rem;
     font-weight: bold;
