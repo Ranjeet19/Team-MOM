@@ -188,6 +188,9 @@ a{
 }
 
 
+
+
+
 /*middle division part containing  describing part of disease quick-link etc*/
 
 .g{
@@ -491,3 +494,39 @@ input[type=email], [type=text], select, textarea {
 
 
 
+
+
+/* 
+.hold-hand{
+
+	float:;
+	color:black;
+	margin:5px 0px 0px 25px;
+
+	font-size:110px;
+}
+
+
+.syringe{
+	display:none;
+
+	display:;
+	 background-color:;
+	float:;
+	color:rgb(92, 113, 228);
+	margin:10px 5px 5px 310px;
+	font-size:110px;
+	opacity:0.7;
+}
+
+
+.syringe:hover{
+	color:rgb(0, 204, 240);
+	transition:all 1.5s;
+	cursor:pointer;
+}
+
+
+
+
+ */
