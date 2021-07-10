@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appoint a doctor for Online Consult..</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+    }
+    body{
+        padding-top:60px;
+        background-color: darkslategray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:whitesmoke;
+        font-family: 'itim',cursive;
+    }
+
+    form{
+       
+        height:auto;
+        width:500px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom:0px;
+    }
+    input{
+        background:transparent;
+        outline:none;
+        padding:10px 20px;
+        margin:10px 0px;
+        
+    }
+    .date_time{
+        margin:0px 20px;
+       
+    }
+    textarea{
+        background:transparent;
+        outline:none;
+        padding:10px 20px;
+        margin:10px 0px;
+    }
+
+    button{
+        margin-top:40px;
+        padding:10px;
+        width:100px;
+        height:auto;
+        background-color: rgb(50, 205, 102);
+        color:white;
+        outline:none;
+        border: none;
+        margin-left:200px;
+        cursor:pointer;
+        border-radius:5px;
+    }
+</style>
+<body>
+
+    <h1 class="Appointment">
+        Appointment
+    </h1>
+    <form>
+        <label>Name:-</label>
+        <input type="text" name="name" placeholder="Enter Fullname of Patient">
+        <label>Address</label>
+        <input type="text" name="address" placeholder="Enter Addresses">
+        <label>Contact no:-</label>
+        <input type="text" name="contact" placeholder="Enter Patient Contact No...">
+        <div class="date_time">
+            <label>Date:-</label>
+            <input name="date" type="date">
+            <label>Time:-</label>
+            <input name="time" type="time">
+        </div>
+        <label>Specify Patient Problems</label>
+        <textarea name="problems" placeholder=""></textarea>
+       
+
+        <button type="submit" name="submit"> Submit</button>
+
+    </form>
+</body>
+
+</html>

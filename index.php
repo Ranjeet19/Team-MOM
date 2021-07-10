@@ -5,11 +5,9 @@
 
 	<link rel="stylesheet" href="font/css/all.css">
 	<link rel="stylesheet" href="css/moms.css">
+	<link rel="stylesheet" href="css/mediamoms.css">
 	<link rel="stylesheet" type="text/css" href="css/css.css">
 	<link rel="icon" type="image/x-icon" href="img/moma.jpg">
-
-
-
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +26,7 @@
 
 		<div class="anchor">
 
-			<a href="index.html">
+			<a href="index.php">
 				<li class="li-home"><i class="fas fa-home"></i> Home</li>
 			</a>
 			<a href="html/about.html">
@@ -160,6 +158,29 @@
 		<div class="top-middle-division">
 			<marquee>
 				-"How very little can be done under the spirit of fear."</marquee>
+		</div>
+
+
+		<div class="middle-division" data-aos="fade-right">
+			<img class="middle-division-img" src="img/magnet.jpg" height="80px" width="90px">
+			<div class="middle-division-heading"><a href="../momss/html/disease/stroke/stroke.html">
+					<h5>Magnetic body after covid second dose in nepal..</h5>
+			</div>
+			<p class="middle-division-text">
+
+			Over the past few weeks, several posts and video clips claiming
+			 Covid-19 vaccines can make people magnetic are doing the rounds 
+			 on social media. The video clips show metal spoons, coins, plates and keys sticking to people’s 
+			bodies...
+			</p>
+			</a>
+
+			<a class="a_mid_div" href="html/disease/stroke/stroke.html">
+				<div class="read-more">
+					<p>Read more</p>
+				</div>
+			</a>
+
 		</div>
 
 
@@ -451,7 +472,7 @@
 			</div>
 
 			<div class="right-division-4">
-				<a href="html/frontend/doctors-list.html">
+				<a href="html/frontend/doctors-list.php">
 					<li class="li-home"><i class="fas fa-user-graduate"></i> Doctor's</li>
 				</a>
 			</div>
@@ -466,9 +487,34 @@
 
 
 		</div>
-		<!-- image sliding part -->
+			<!-- sliding part -->
+			<div class="galleryContainer">
+				<div class="slideShowContainer">
+				<div id="playPause" onclick="playPauseSlides()"></div>
+				<div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+				<div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+				<div class="captionTextHolder">
+					<p class="captionText slideTextFromTop"></p>
+				</div>
+				<div class="imageHolder">
+					<img src="img/moma.jpg">1366X768
+					<p class="captionText"></p>
+				</div>
+				<div class="imageHolder">
+					<img src="img/co-info.jpg">
+					<p class="captionText">covid-info</p>
+				</div>
+				<div class="imageHolder">
+					<img src="img/covid-help.jpg">
+					<p class="captionText">covid-prevention.</p>
+				</div>
 
-		<div class="slider">
+
+				</div>
+				<div id="dotsContainer"></div>
+			</div>
+
+		<!-- <div class="slider">
 			<style>
 				.slider {
 					background-color: red;
@@ -510,10 +556,11 @@
 				window.onload = changeImg;
 			</script>
 
-		</div>
+		</div> -->
 	</div>
 
-
+	<script src="js/myScript.js"></script>
+	
 </body>
 
 
