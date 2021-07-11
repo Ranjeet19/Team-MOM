@@ -161,6 +161,55 @@
 		</div>
 
 
+
+
+
+
+
+<?php 
+	include "admin/connection.php";
+
+	  $sql = "SELECT * FROM post";
+	  $query = mysqli_query($con, $sql) or die("Query Failed");
+	
+	  while ($row = mysqli_fetch_assoc($query)) {
+
+?>
+
+
+
+						
+		<div class="middle-division" data-aos="fade-right">
+			<img class="middle-division-img" src="admin/html/post/post_img/<?php echo $row['image']; ?>" height="80px" width="90px">
+			<div class="middle-division-heading"><a href="../momss/html/disease/stroke/stroke.html">
+					<h5><?php echo (substr($row['title'],0,47) ."...");  ?></h5>
+			</div>
+			<p class="middle-division-text">
+
+		
+			<?php echo (substr($row['descreption'],0,227) ."...");  ?>
+			</p>
+			</a>
+
+			<a class="a_mid_div" href="html/disease/stroke/stroke.html">
+				<div class="read-more">
+					<p>Read more</p>
+				</div>
+			</a>
+
+		</div>
+
+<?php } ?>
+
+
+
+
+
+
+
+
+
+
 		<div class="middle-division" data-aos="fade-right">
 			<img class="middle-division-img" src="img/magnet.jpg" height="80px" width="90px">
 			<div class="middle-division-heading"><a href="../momss/html/disease/stroke/stroke.html">

@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="../../index_admin.css">
-    <link rel="stylesheet" href="diesease.css">
+    <link rel="stylesheet" href="../diesease/diesease.css">
     <link rel="stylesheet" href="../../../font/css/all.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -105,7 +105,7 @@
                         <div class="dashboard_div divi">
                             <div class="img_edit_delete_div">
                                 <img class="doc_img" src="post_img/<?php echo $row['image']; ?>">
-                                <h2 class="doc_name"><?php echo $row['title']; ?></h2>
+                                <h2 style=""class="doc_name"><?php echo (substr($row['title'],0,32) ."...");  ?></h2>
                                 <div id="edit_delete">
                                     <a href="edit_post.php?id=<?php echo $row['id']; ?>">
                                         <li class="delete"><i class="fas fa-pencil-alt"></i> </li>
