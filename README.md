@@ -4,7 +4,7 @@ This Repo is for all stuff of code that we have done on Provathon....
 
 On This Read Me file we are Going to add  Our Whole Ideas and the Step By Step Process of Installing and Running Our Projects..
 
-First install the xamp (if you don't have) .Then open the xamp.
+First install the xampp (if you don't have) .Then open the xamp.
 
 
 open the directory 'C:\xampp\htdocs' and run the following command if you have git on your device.
